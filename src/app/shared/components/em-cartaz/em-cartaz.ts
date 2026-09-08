@@ -24,7 +24,10 @@ export class EmCartazComponent implements OnInit {
 
   ngOnInit(): void {
     this.filmes = this.filmeService.listarEmCartaz();
+<<<<<<< HEAD
     console.log(this.filmes);
+=======
+>>>>>>> 473eb27b92b38f5043ab95397dc16e563463b26a
   }
 
 }
